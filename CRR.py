@@ -22,7 +22,7 @@ def crr_binomial_tree(S_0, K, T, r, sigma, N):
 nvda = yf.Ticker("NVDA")
 hist = nvda.history(period="1y")
 S0 = hist['Close'].iloc[-1]
-options = nvda.option_chain(nvda.options[5])
+options = nvda.option_chain('2026-04-20')
 call_options = options.calls
 Strike = call_options['strike'][0:15] # Strike prices of the first 15 options with expiry date April 20
 Market_Ask = call_options['ask'][0:15]# Ask prices of the first 15 options with expiry date April 20

@@ -1,2 +1,2 @@
 # MA262_Scientific_Communication_Script
-The python script used to simulate the CRR model is contained within this repository. This script creates a binomial tree on the stock price of NVIDIA. This binomial tree is then used to calculate the 'true' price of the option at time 0.
+The python script used to simulate the CRR model is contained within this repository. This script creates a binomial tree on the stock price of NVIDIA. This binomial tree is then used to calculate the 'true' price of the option at time 0. The libraries yfinance, numpy and pandas need to be installed to run this code. This can be done by running the following lines of code in your command line respectively: pip install yfinance, pip install numpy, pip install pandas. 
